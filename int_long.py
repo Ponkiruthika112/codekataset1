@@ -1,6 +1,9 @@
 n=int(input())
-if n>-2**15-1 and n<2**15-1:
+if n>-2**15+1 and n<2**15-1:
     print("INT")
-else:
+elif n>-2**31+1 and n<2**31-1:
     print("LONG")
-#int or long
+else:
+    print("LONG LONG")
+
+#long or int
