@@ -6,4 +6,6 @@ for i in range(1,n):
 		print(i)
 		c=c+1
 		break
+if c==0:
+	print(n)
 #odd
