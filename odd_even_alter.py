@@ -1,15 +1,17 @@
 s=input()
-e=0
-o=0
-for i in s:
-    if int(i)%2==0:
-        e=e+1
+l=[]
+c=0
+for i in range(0,len(s)-1):
+    k=int(s[i])+int(s[i+1])
+    if k%2!=0:
+        c=c+1
     else:
-        o=o+1
-if e==0 or o==0:
+        l.append(c)
+        c=0
+    l.append(c)
+p=max(l)
+if p==0:
     print(0)
-elif e==o:
-    print(e+o)
 else:
-    print(abs(e-o))
-#alter odd even
+    print(p+1)
+#oo
