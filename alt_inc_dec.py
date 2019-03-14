@@ -11,4 +11,4 @@ if c+k==len(a)-2:
     print("yes")
 else:
     print("no")
-alter inc dec
+#alter inc dec
