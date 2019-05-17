@@ -26,4 +26,4 @@ if c==0:
 	print(0)
 else:
 	print(z)
-$knapsack
+#knapsack
