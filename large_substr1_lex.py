@@ -6,3 +6,4 @@ for i in range(0,len(s)):
 		print(k)
 		break
  #substring
+#se
