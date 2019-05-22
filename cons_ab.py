@@ -14,7 +14,10 @@ if s.find("ab")!=-1:
 			l.append(t)
 			t=1
 	l.append(t)
-	print(max(l))	
+	if s[len(s)-1]=="a" and s[len(s)-2]=="b":
+		print((max(l)*2)+1)
+	else:
+		print(max(l)*2)
 else:
 	print(0)
-  #cons
+#cons
