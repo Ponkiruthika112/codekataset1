@@ -10,7 +10,7 @@ for i in s:
 	else:
 		break
 if c==len(l):
-	print("yes")
+	print("YES")
 else:
-	print("no")
+	print("NO")
  #link list
