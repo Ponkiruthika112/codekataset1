@@ -12,7 +12,6 @@ def prime(n):
     return l
 n=int(input())
 l=prime(n)
-print(l)
 c=0
 p=[]
 for i in range(0,len(l)):
@@ -24,6 +23,7 @@ if len(p)>1:
     for i in p:
         if len(list(set(i)))==len(i):
             d=i
+            break
 else:
     d=p[0]
 print(*d)
