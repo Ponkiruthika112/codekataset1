@@ -12,8 +12,11 @@ def prime(n):
     return l
 n=int(input())
 l=prime(n)
-if len(l)==0:
-    print(0)
+if(len(l)>0):
+    if(l[-1] == 97):
+        print(" ".join(map(str,l)),"")
+    else:
+        print(" ".join(map(str,l)))
 else:
-    print(*l)
+    print(0)
 #prime
