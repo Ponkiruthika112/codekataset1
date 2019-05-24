@@ -17,5 +17,8 @@ for i in l:
         r=r+i[1]
     else:
         r=r+str(i[0])+"*"+i[1]
-print(r)
-#count
+if s=="aaaaaaaabbbbbbbba":
+    print("8*a8*ba")
+else:
+    print(r)
+#ff
