@@ -1,4 +1,5 @@
 s=input()
+s=s.replace(".","")
 l=s.split()
 k=""
 for i in range(1,len(l)+1):
@@ -7,4 +8,4 @@ for i in range(1,len(l)+1):
     else:
         k=k+l[i-1]+" "
 print(k.strip())        
-#rev at odd pos
+#rev_at_odd
