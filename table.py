@@ -23,3 +23,4 @@ else:
 	j=c
 	print(check(n,p,t,j))
   #jm
+#zxc
