@@ -12,7 +12,7 @@ if k>=3 and p>=4:
 if s[len(s)-4::]==".com":
         c=c+1
 if c==3:
-        print("yes")
+        print("YES")
 else:
-        print("no")
+        print("NO")
 #email
