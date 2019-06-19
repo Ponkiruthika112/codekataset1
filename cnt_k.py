@@ -11,3 +11,4 @@ for i in range(a,b):
     j=j+count(i,c)
 print(j)
 #hj
+#ghh
