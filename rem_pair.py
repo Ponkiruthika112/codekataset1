@@ -9,3 +9,4 @@ n=n.replace("**",s)
 n=n.replace("*",s)
 print(n)
 #pj
+#hj
