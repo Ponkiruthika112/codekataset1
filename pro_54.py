@@ -10,4 +10,4 @@ for i in range(0,k):
         l[g]=(b[g]+1)//a[g]
         p=min(l)
 print(min(l))
-#d
+#cake
